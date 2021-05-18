@@ -1,0 +1,6 @@
+
+@mixin media-min-aspect-ratio($ratio) {
+    @media (min-aspect-ratio: $ratio) {
+      @content;
+    }
+  }

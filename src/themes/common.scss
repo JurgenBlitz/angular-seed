@@ -1,0 +1,12 @@
+@import "variables";
+// This file is intented to store selectors or classes that are used across the app,
+// to avoid the repetition or copy-paste of these elements.
+//
+// Example below
+
+.primary-button {
+    width: 50px;
+    height: 25px;
+    border: 1px solid var(app-main-color);
+    border-radius: 16px;
+}
